@@ -1,0 +1,14 @@
+.CountryList_option {
+	padding: 10px;
+	cursor: pointer;
+	transition: ease-in 0.1s;
+}
+
+.CountryList_option:nth-child(odd) {
+	background: #EFEFEF;
+}
+.CountryList_option:hover {
+	background: #CCC;
+	color: white;
+	padding-left: 30px;
+}
